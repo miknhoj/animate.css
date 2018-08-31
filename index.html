@@ -9,7 +9,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <link rel="stylesheet" href="style.css" </head> <body>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
     <div class="container">
         <header class="animated slideInDown text-center bg-primary text-white p-5">
             <h1 class="display-4">animate.css</h1>
@@ -24,14 +27,25 @@
     </section>
 
     <section id="section-2" class="animated slideInRight bg-faded p-5 my-3">
-        <h1>Section Two</h1>
+        <h1 id="head-2">Section Two</h1>
+        <p id="anim-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, eaque sunt! Est reprehenderit praesentium
+            hic rerum. Sed, illo soluta! Autem, labore ipsam dolorum rerum, ex qui tenetur recusandae fuga molestiae
+            totam, vero adipisci? Necessitatibus, odit sed. Fugiat totam labore quod.</p>
+        <button id="bounce-btn" class="animation-btn btn btn-primary">Bounce</button>
+    </section>
+
+    <section id="section-3" class="animated slideInLeft bg-faded p-5 my-3">
+        <h1 id="head-3">Section Three</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, eaque sunt! Est reprehenderit praesentium
             hic rerum. Sed, illo soluta! Autem, labore ipsam dolorum rerum, ex qui tenetur recusandae fuga molestiae
             totam, vero adipisci? Necessitatibus, odit sed. Fugiat totam labore quod.</p>
-<button class="btn btn-primary">Animate</button>
+        <button id="jello-btn" class="btn btn-primary">Jello</button>
     </section>
 
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
 
-    </body>
+</body>
 
 </html>
